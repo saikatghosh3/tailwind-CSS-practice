@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output/tailwind.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body> 
+    <div class="bg-blue-500">
+    <div class="flex justify-between items-center p-6 px-6 lg:px-0 container mx-auto">
+ <!-- logo -->
+<div class="text-lg font-bold uppercase ">(S)code</div>
+
+<!-- Hamburger -->
+<input  class="peer hidden" type="checkbox" name="hamburger" id="hamburger">
+<label class="peer-checked:hamburger block relative cursor-pointer lg:hidden border-2 border-gray-300
+peer-checked:borer-2 peer-checked:border-white p-3 rounded-md  transiton-all" for="hamburger">
+<div class="m-auto w-6 h-0.5 rounded bg-gray-300 transition-all duration-300"></div>
+<div class="m-auto  mt-2 w-6 h-0.5 rounded bg-gray-300 transition-all duration-300 "></div>
+</label>
+
+<!-- menu navbar -->
+<div class="-translate-y-full peer-checked:translate-y-0 lg:translate-y-0 inset-0 fixed lg:static pt-20
+lg:pt-0 bg-white lg:bg-transparent -z-10 lg:z-10 lg:h-auto lg:w-auto trnasition-all duration-300 ease-in-out">
+<div class="bg-white shadow-md lg:bg-transparent lg:shadow-none py-10 lg:py-0 flex flex-col lg:items-center lg:flex-row px-6 space-y-4 lg:space-y-0 lg:space-x-12">
+    <a class="text-black lg:text-black hover:text-gray-400 transition-all" href="">HOME</a>
+    <a class="text-black lg:text-black hover:text-gray-300 transition-all">ABOUT</a>
+    <a class="text-black lg:text-black hover:text-gray-300 transition-all">PORTFOLIO</a>
+    <a class="text-black lg:text-black hover:text-gray-300 transition-all">CONTACT</a>
+</div>
+</div>
+    </div>
+</div>
+
+</body >
+</html>
